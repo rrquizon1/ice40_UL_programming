@@ -6,7 +6,7 @@ For this example, the dedicated resources of raspberry pi 5 is used for SPI comm
 
 To modify the buffer limit of the raspberry pi see here: https://raspberrypi.stackexchange.com/questions/65595/spi-transfer-fails-with-buffer-size-greater-than-4096
 
-The instructions used for programming for this example is taken from FPGA-TN-02001-3.4( ice40 Programming and Configuration) technical note. See below for the waveform instructions from the document.
+The instructions used for programming for this example is taken from FPGA-TN-02001-3.4( [ice40 Programming and Configuration](https://www.latticesemi.com/view_document?document_id=46502)) technical note. See below for the waveform instructions from the document.
 ![image](https://github.com/user-attachments/assets/d2f8afd1-0711-4ea5-af9f-bec0dd8c61b2)
 
 Source files: 
