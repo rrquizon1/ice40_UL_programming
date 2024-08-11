@@ -35,4 +35,4 @@ End of sending bitstream and CDONE goes high after sending 01 06 (wake up comman
 
 
 
-
+Take note that this example only works with bitstream size up to 65536, other approaches must be done with larger bitstream such as ice40 UP5k.
