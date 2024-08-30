@@ -10,9 +10,13 @@ The instructions used for programming for this example is taken from FPGA-TN-020
 ![image](https://github.com/user-attachments/assets/d2f8afd1-0711-4ea5-af9f-bec0dd8c61b2)
 
 Source files: 
+
 main.c-contains the programming procedure
+
 fastconfig_data.c- contains the bitstream data to be sent. This can be modified to send bitsream on different devices
+
 ice40_spi.c- contains the functions used for SPI transaction and gpio control
+
 Makefile-compiles the project 
 
 You can modify g_iDataSize and g_pucDataArray with your bitstream information. With this example, ice40 UL breakout board is used which has 30945 bytes of data. This is within the buffer size limit of 65536.
